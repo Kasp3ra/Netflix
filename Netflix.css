@@ -1,0 +1,106 @@
+*{
+    background-color: black;
+    text-decoration-color: white;
+    font-family: 'Lato','Helvetica','Arial';
+margin-bottom:9vw;
+}
+.N1{color: white;
+    position: absolute;
+    top: 12vw;
+    margin-left: 40vw;
+    text-align: center;
+}
+.Email{
+    background-color: rgba(235, 28, 28, 0.774);
+    position: absolute;
+    top: 29vw;
+    margin-left: 40vw;
+    padding: 1.5vw;
+    border-radius: 0.35rem;
+    width: 22vw;
+    border: rgba(235, 28, 28, 0.774);
+text-decoration-color:white ;
+font-weight: bolder;
+ }
+.N4{
+    color: white;
+    position: absolute;
+    top: 28.2vw;
+    margin-left: 48.7vw;
+    background-color: rgba(235, 28, 28, 0.774);
+    text-emphasis-color: white;
+}
+.EPN{
+    color: gray;
+    background-color: rgb(58, 57, 57);
+    border:rgb(58, 57, 57);
+    top: 18vw;
+    margin-left: 40vw;
+    padding: 1vw;
+    width: 20vw;
+    position: absolute;
+    border-radius: 0.25rem;
+}
+.P{
+    color: gray;
+    background-color: rgb(58, 57, 57);
+    border:rgb(58, 57, 57);
+    top: 22.7vw;
+    margin-left: 40vw;
+    padding: 1vw;
+    width: 20vw;
+    position: absolute;
+    border-radius: 0.3rem;
+}
+/* .i1{
+    margin-left: 12px;
+    position: fixed;
+    text-align: center;
+    margin-top: 600px;
+    opacity: 1.6;
+} */
+.LL{
+    top: 1vw;
+    position: absolute;
+    height: 9vw;
+    margin-left: 3vw;
+    width: 12vw;
+
+}
+.checkbox{
+    color:  rgb(58, 57, 57);;
+    background-color: rgb(58, 57, 57);
+    border:rgb(58, 57, 57);
+    top: 33vw;
+    margin-left: 40vw;
+    position: absolute;
+}
+.checkbox:hover{
+    color:  rgb(58, 57, 57);;
+}
+.R1{
+    margin-left: 41.5vw;
+    position: absolute;
+    top: 31.5vw;
+}
+.n1
+{
+    margin-left: 56vw;
+    position: absolute;
+    top: 31.5vw;
+}
+.Login{
+    margin-left: 42.5vw;
+    position: absolute;
+    top: 37vw;
+}
+.New{
+    margin-left: 40vw;
+    position: absolute;
+    top: 40vw;
+}
+.SUN{
+    margin-left: 47.3vw;
+    position: absolute;
+    top: 40vw;
+}
