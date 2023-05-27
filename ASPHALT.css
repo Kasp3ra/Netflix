@@ -1,0 +1,397 @@
+  *{
+    margin-left: auto;
+padding: 0%;
+top: 20px;
+font-family: 'Lato','Helvetica','Arial';
+margin-bottom:9vw;
+}
+.PIZZA{ font-weight: bolder;
+    margin-left: 3.5vw;
+    background-color: hsl(59, 100%, 52%);
+    border: grey;
+    padding: 0.8vw;
+    margin-top: 1.1vw;
+    position: absolute;
+    text-emphasis-color:black;
+    border-radius: 0rem;
+    max-width: 500px;
+    width: 17.8vw;
+    transition: 1s;
+}
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+  }
+.PIZZA:hover{
+    background-color: orangered;
+}
+.YOGHURT{ font-weight: bolder;
+    margin-left: 22vw;
+    background-color: hsl(59, 100%, 52%);
+    border: gray;
+    padding: 0.8vw;
+    margin-top: 1.1vw;
+    position: absolute;
+    text-emphasis-color:black;
+    border-radius: 0rem;
+    max-width: 500px;
+    width: 17.8vw;
+    transition: 1s;
+}
+.YOGHURT:hover{
+    background-color: orangered;
+    background-position: center;
+}
+.SOFT{ font-weight: bolder;
+    margin-left: 40.5vw;
+    background-color: hsl(59, 100%, 52%);
+    border: gray;
+    padding: 0.8vw;
+    margin-top: 1.1vw;
+    position: absolute;
+    text-emphasis-color:black;
+    border-radius: 0rem;
+    max-width: 500px;
+    width: 17.8vw;
+    transition: 1s;
+}
+.SOFT:hover{
+    background-color: orangered;
+}
+.ICE{font-weight: bolder;
+    /* font-style: oblique; */
+    margin-left: 58.99vw;
+    background-color: hsl(59, 100%, 52%);
+    border: gray;
+    padding: 0.8vw;
+    margin-top: 1.1vw;
+    position: absolute;
+    text-emphasis-color:black;
+    border-radius: 0rem;
+    max-width: 500px;
+    width: 17.8vw;
+    transition: 1s;
+}
+.I{font-weight: bolder;
+    margin-left: 77.5vw;
+    background-color: hsl(59, 100%, 52%);
+    border: gray;
+    padding: 0.8vw;
+    margin-top: 1.1vw;
+    position: absolute;
+    text-emphasis-color:black;
+    border-radius: 0rem;
+    max-width: 500px;
+    width: 17.8vw;
+    transition: 1s;
+}
+.I:hover{
+    background-color: orangered;
+}
+
+/* button{
+    transition: ease-in-out;
+    transform-style: flat;
+    transition-timing-function: ;
+} */
+.Pp{
+    top: 7.3vw;
+    position: absolute;
+    height: 40vw;
+    margin-left: 3.5vw;
+    width: 65vw;
+
+
+}
+.AP{font-weight: bolder;
+    margin-left: 3.6vw;
+    background-color: hsl(59, 100%, 52%);
+    border: gray;
+    padding: 3vw; 
+    top: 35vw;
+    position: absolute;
+    text-emphasis-color:black;
+    border-radius: 0rem;
+    width: 50vw;
+    /* width: 240px; */
+    font-size: 4vw;
+    opacity: 0.7;
+    height: auto;
+}
+.AP:hover{
+    background-color: orchid;
+}
+.N{
+    margin-left: 70vw;
+    border: gray;
+    background-color: hsl(59, 100%, 52%);
+    top: 7.5vw;
+    position: absolute;
+    width: 24.5vw;
+    height: 19vw;
+text-align: center;
+font-size: 2.5vw;
+}
+.N:hover{
+    background-color: orchid;
+    background-image: url(ic.jpeg);
+    background-blend-mode: darken;
+}
+.M{
+    margin-left: 70vw;
+    border: gray;
+    background-color: hsl(59, 100%, 52%);
+    top: 28.0vw;
+    position: absolute;
+    width: 24.5vw;
+    height: 19vw;
+text-align: center;
+font-size: 2vw;
+}
+.M:hover{
+    background-color: orchid;
+    background-image: url(XL.jpeg);
+    background-position: 0.05vw;
+}
+body{
+    background-image: url(blurry.jpeg);
+    background-color: rgb(243, 247, 2);
+    background-blend-mode: darken;
+    background-position: absolute;
+    background-size: contain;
+}
+.QW{
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    top: 50vw;
+    background-color: black;
+    margin-left: 3.6vw;
+}
+.A2{
+    position: fixed;
+    margin-top: 650px;
+    margin-left: 300px;
+    opacity: 0.5;
+ 
+}
+/* .video{ top: 50vw;
+    position: absolute;
+    width: 50vw;
+    height: 18vw;
+    margin-left: 25vw; 
+} */
+.icon{
+    position: absolute;
+    width: 15vw;
+    top: 50vw;
+    background-color: white;
+    margin-left: 3.6vw;
+    height: 15vw;
+    color: yellow;
+    text-decoration-color: yellow;
+    mix-blend-mode: darken;
+    
+}
+.ZW{
+    top: 1111x;
+    position: absolute;
+}
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .feature {
+    background: rgba(255, 255, 255, 0.2);
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .feature h3 {
+    font-weight: 300;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .feature p {
+    font-weight: 200;
+  }
+  .icon {
+    padding: 10px;
+    font-size: 30px;
+  }
+@keyframes blink {
+   0%{
+       background-color: yellow;
+   }
+   15%{
+       background-color: black;   
+   }
+   30%{
+       background-color: yellow;
+   }
+   42%{
+       background-color: black;
+   }
+   58%{
+       background-color: yellow;
+   }
+   70%{
+       background-color: black;
+   }
+   85%{
+       background-color: yellow;
+   }
+   100%{
+       background-color: black;
+   }
+}
+   @-webkit-keyframes blink {
+    0%{
+        background-color: yellow;
+    }
+    15%{
+        background-color:black;   
+    }
+    30%{
+        background-color: yellow;
+    }
+    42%{
+        background-color:black;
+    }
+    58%{
+        background-color: yellow;
+    }
+    70%{
+        background-color:black;
+    }
+    85%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: black;
+    }
+ }
+ .d1{
+    position: absolute;
+    width: 15vw;
+    top: 50vw;
+    margin-left: 3.6vw;
+    height: 15vw;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite ;
+ }
+ 
+
+ .d2{
+    position: absolute;
+    width: 15vw;
+    top: 50vw;
+    margin-left: 31vw;
+    height: 15vw;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite ;
+
+ }
+  .d3{
+    position: absolute;
+    width: 15vw;
+    top: 50vw;
+    margin-left: 55vw;
+    height: 15vw;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite ;
+ } 
+ .d4{
+    position: absolute;
+    width: 15vw;
+    top: 50vw;
+    margin-left: 80.6vw;
+    height: 15vw;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite ;
+ }
+ /* .d5{
+    position: absolute;
+    width: 15vw;
+    top: 50vw;
+    margin-left: 79.5vw;
+    height: 15vw;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite ;
+ } */
+/* .d6{
+    position: absolute;
+    width: 15vw;
+    top: 50vw;
+    margin-left: 87.6vw;
+    height: 15vw;
+    border: 1px solid black;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 10s infinite ;
+ } */
+
+ 
+/* #AA{
+    width: 55vw;
+    margin-top: 10vw;
+    margin-left: 3vw;
+    cursor: pointer;
+    display: flex;
+} */
+.i1{
+    top: 0vw;
+    margin-left: 3.8vw;
+    position: absolute;
+    width: 6vw;
+    
+}
+.ZZ{
+    margin-top:12vw;
+    text-align: center;
+}
+.Z1{
+    margin-top:12vw;
+    text-align: center;
+}
+.Z2{
+    margin-top:12vw;
+    text-align: center;
+}
+.Z3{
+    margin-top:12vw;
+    text-align: center;
+}
+
+/* .vid{
+   position: absolute;
+    height: 35.1vw;
+    width: 59.2vw;
+    top: 73vw;
+    margin-left: 19.6vw;
+    margin-bottom: 30px;
+} */
+.gallery h2 {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 30px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+
+
+
